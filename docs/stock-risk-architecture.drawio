@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.4.0">
+  <diagram name="Page-1" id="oDnRGCKclxAh0-jhyhqj">
+    <mxGraphModel dx="1489" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <object label="" id="0">
+          <mxCell />
+        </object>
+        <mxCell id="1" parent="0" />
+        <mxCell id="awYSy-8GkJZEdJ3VrF2C-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Docker Container&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="230" width="650" x="519" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="awYSy-8GkJZEdJ3VrF2C-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="&lt;div&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Backend API (FastAPI)&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="240" x="885" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="awYSy-8GkJZEdJ3VrF2C-17" edge="1" parent="1" source="awYSy-8GkJZEdJ3VrF2C-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="545" y="155.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awYSy-8GkJZEdJ3VrF2C-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;USER(BROWSER)&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="130" width="270" x="100" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="awYSy-8GkJZEdJ3VrF2C-21" edge="1" parent="1" source="awYSy-8GkJZEdJ3VrF2C-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="awYSy-8GkJZEdJ3VrF2C-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="awYSy-8GkJZEdJ3VrF2C-22" connectable="0" parent="awYSy-8GkJZEdJ3VrF2C-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="CALL&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3023" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awYSy-8GkJZEdJ3VrF2C-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Database (PostgreSQL)&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="55" width="110" x="900" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="awYSy-8GkJZEdJ3VrF2C-23" edge="1" parent="1" source="awYSy-8GkJZEdJ3VrF2C-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="awYSy-8GkJZEdJ3VrF2C-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="awYSy-8GkJZEdJ3VrF2C-24" connectable="0" parent="awYSy-8GkJZEdJ3VrF2C-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;Fetch Stock Data&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.9143" y="-6" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awYSy-8GkJZEdJ3VrF2C-8" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Cache (Redis)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="70" x="1055" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="awYSy-8GkJZEdJ3VrF2C-20" edge="1" parent="1" source="awYSy-8GkJZEdJ3VrF2C-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="awYSy-8GkJZEdJ3VrF2C-5" value="api call">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="awYSy-8GkJZEdJ3VrF2C-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Frontend (React)&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="290" x="550" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="awYSy-8GkJZEdJ3VrF2C-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;External Stock Data API&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="140" width="280" x="1210" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="awYSy-8GkJZEdJ3VrF2C-18" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="awYSy-8GkJZEdJ3VrF2C-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="545" y="155.0000000000001" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awYSy-8GkJZEdJ3VrF2C-19" connectable="0" parent="awYSy-8GkJZEdJ3VrF2C-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="HTTP REQUEST" vertex="1">
+          <mxGeometry relative="1" x="0.0188" y="-2" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
