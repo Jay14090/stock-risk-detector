@@ -126,3 +126,34 @@ Professional risk tools are typically:
 
 ## 🧠 High-Level Architecture
 
+---
+
+## MoSCoW Prioritization
+
+### Must Have
+- Stock search by ticker
+- Volatility calculation
+- Beta calculation
+- Maximum drawdown
+- Overall risk score
+- Risk categorization
+
+### Should Have
+- Historical price chart
+- Portfolio risk analysis
+- Risk breakdown details
+- Stock comparison feature
+
+### Could Have
+- Watchlist feature
+- User authentication
+- Risk alerts
+- Exportable reports
+
+### Won’t Have (for now)
+- Options/Derivatives risk
+- Crypto risk analysis
+- AI trading bot
+- Real-time high-frequency trading analytics
+
+
